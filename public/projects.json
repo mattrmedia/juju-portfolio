@@ -1,0 +1,109 @@
+{
+    "projects": [
+        {
+            "title": "Project 1",
+            "description": "A short story about stuff",
+            "type": "logo",
+            "images": [
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                },
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            ],
+             "thumbnail": 
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            
+        },
+        {
+            "title": "Project 2",
+            "description": "A short story about stuff",
+            "type": "logo",
+            "images": [
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                },
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            ],
+             "thumbnail": 
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            
+        },
+        {
+            "title": "Project 3",
+            "description": "A short story about stuff",
+            "type": "logo",
+            "images": [
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                },
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            ],
+             "thumbnail": 
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            
+        },
+        {
+            "title": "Project 4",
+            "description": "A short story about stuff",
+            "type": "logo",
+            "images": [
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                },
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            ],
+             "thumbnail": 
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            
+        },
+        {
+            "title": "Project 5",
+            "description": "A short story about stuff",
+            "type": "logo",
+            "images": [
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                },
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            ],
+             "thumbnail": 
+                {
+                    "src": "https://place-hold.it/300x300",
+                    "altText": "An image of beautiful artwork"
+                }
+            
+        }
+    ]
+}
