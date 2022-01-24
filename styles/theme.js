@@ -14,8 +14,8 @@ export const fonts = {
 
 export const grid = {
     'display': 'flex',
-    'align-items': 'center',
-    'justify-content': 'space-between',
-    'flex-wrap': 'wrap',
+    'alignItems': 'center',
+    'justifyContent': 'space-between',
+    'flexWrap': 'wrap',
     'width': '80%'
 }

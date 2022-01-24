@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import styled from '@emotion/styled';
+import Link from 'next/link';
 import { colors, fonts, grid } from '../styles/theme';
 
 const StyledNav = styled.nav`
@@ -9,6 +9,7 @@ const StyledNav = styled.nav`
 `
 
 const StyledLogo = styled.div`
+    cursor: pointer;
     font-family: ${fonts.serif};
     font-size: 2rem;
 `
@@ -21,7 +22,7 @@ const Roe = styled.span`
     color: ${colors.primaryBright}
 `
 
-const Nav = styled.ul`
+export const Nav = styled.ul`
     color: #fff;
     display: inline-flex;
 
@@ -33,25 +34,21 @@ const Nav = styled.ul`
 export const Navigation = () => {
     return (
         <StyledNav>
-                <StyledLogo>
-                    <Julia>julia</Julia>
-                    <Roe>roe</Roe>
-                </StyledLogo>
+                <Link href="/">
+                    <StyledLogo>
+                        <Julia>julia</Julia>
+                        <Roe>roe</Roe>
+                    </StyledLogo>
+                </Link>
                 <Nav>
                     <li>
-                        <Link href='#work'>
-                            <a>work</a>
-                        </Link>
+                        <Link href='/#work'>work</Link>
                     </li>
                     <li>
-                        <Link href='#about'>
-                            <a>about</a>
-                        </Link>
+                        <Link href='/#about'>about</Link>
                     </li>
                     <li>
-                        <Link href='#resume'>
-                            <a>resum&eacute;</a>
-                        </Link>
+                        <Link href='/#resume'>resum&eacute;</Link>
                     </li>
                 </Nav>
             </StyledNav>

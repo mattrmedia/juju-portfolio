@@ -4,8 +4,6 @@ import Image from 'next/image';
 import { colors } from '../styles/theme';
 import { Navigation } from './Navigation';
 
-import headerImage from '../public/assets/home-header-29.png';
-
 const StyledHeader = styled.header`
     align-items: center;
     background-color: ${colors.primaryDark};
@@ -13,16 +11,13 @@ const StyledHeader = styled.header`
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    position: relative;
 `
 
 export const Header = () => {
     return (
         <StyledHeader>
             <Navigation />
-            <Image
-                src={headerImage}
-                alt="Picture of organized wood type" 
-            />
         </StyledHeader>
     )
 }

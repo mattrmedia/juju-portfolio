@@ -1,20 +1,16 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import { Header } from '../components/Header';
+import { ImageContainer } from '../components/ImageContainer';
 import { Gallery } from '../components/Gallery';
+
+import headerImage from '../public/assets/home-header-29.png';
 
 export default function Home({ data }) {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Julia Roe Portfolio</title>
-        <meta name="description" content="Julia Roe / Graphic Designer / Environmental Design" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Outfit:300,400,600,700&amp;lang=en" />
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:300,400,600,700&amp;lang=en" />
-      </Head>
       <Header />
       <main className={styles.main}>
+        <ImageContainer image={headerImage} height={'675'} width={'1650'} />
         <Gallery projects={data.projects} />
       </main>
 
@@ -24,7 +20,7 @@ export default function Home({ data }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const dev = process.env.NODE_ENV !== 'production';
   const server = dev ? 'http://localhost:3000' : 'https://juliaroe.com';
   const res = await fetch(`${server}/projects.json`);

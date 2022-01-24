@@ -1,109 +1,115 @@
 {
     "projects": [
-        {
-            "title": "Project 1",
-            "description": "A short story about stuff",
-            "type": "logo",
-            "images": [
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                },
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            ],
-             "thumbnail": 
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            
-        },
-        {
-            "title": "Project 2",
-            "description": "A short story about stuff",
-            "type": "logo",
-            "images": [
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                },
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            ],
-             "thumbnail": 
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            
-        },
-        {
-            "title": "Project 3",
-            "description": "A short story about stuff",
-            "type": "logo",
-            "images": [
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                },
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            ],
-             "thumbnail": 
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            
-        },
-        {
-            "title": "Project 4",
-            "description": "A short story about stuff",
-            "type": "logo",
-            "images": [
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                },
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            ],
-             "thumbnail": 
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            
-        },
-        {
-            "title": "Project 5",
-            "description": "A short story about stuff",
-            "type": "logo",
-            "images": [
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                },
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            ],
-             "thumbnail": 
-                {
-                    "src": "https://place-hold.it/300x300",
-                    "altText": "An image of beautiful artwork"
-                }
-            
+      {
+        "id": "project-1",
+        "title": "Project 1",
+        "problem": "A short story about stuff",
+        "solution": "I can type text in here but i can't",
+        "type": ["logo"],
+        "headerImage": "https://place-hold.it/1650x400",
+        "images": [
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          },
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          }
+        ],
+        "thumbnail": {
+          "src": "https://place-hold.it/400x400",
+          "altText": "An image of beautiful artwork"
         }
+      },
+      {
+        "id": "project-2",
+        "title": "Project 2",
+        "problem": "A short story about stuff",
+        "solution": "I can type text in here but i can't",
+        "type": ["digital"],
+        "headerImage": "https://place-hold.it/1650x400",
+        "images": [
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          },
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          }
+        ],
+        "thumbnail": {
+          "src": "https://place-hold.it/400x400",
+          "altText": "An image of beautiful artwork"
+        }
+      },
+      {
+        "id": "project-3",
+        "title": "Project 3",
+        "problem": "A short story about stuff",
+        "solution": "I can type text in here but i can't",
+        "type": ["illustration"],
+        "headerImage": "https://place-hold.it/1650x400",
+        "images": [
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          },
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          }
+        ],
+        "thumbnail": {
+          "src": "https://place-hold.it/400x400",
+          "altText": "An image of beautiful artwork"
+        }
+      },
+      {
+        "id": "project-4",
+        "title": "Project 4",
+        "problem": "A short story about stuff",
+        "solution": "I can type text in here but i can't",
+        "type": ["publications"],
+        "headerImage": "https://place-hold.it/1650x400",
+        "images": [
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          },
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          }
+        ],
+        "thumbnail": {
+          "src": "https://place-hold.it/400x400",
+          "altText": "An image of beautiful artwork"
+        }
+      },
+      {
+        "id": "project-5",
+        "title": "Project 5",
+        "problem": "A short story about stuff",
+        "solution": "I can type text in here but i can't",
+        "type": ["illustration", "publications"],
+        "headerImage": "https://place-hold.it/1650x400",
+        "images": [
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          },
+          {
+            "src": "https://place-hold.it/400x400",
+            "altText": "An image of beautiful artwork"
+          }
+        ],
+        "thumbnail": {
+          "src": "https://place-hold.it/400x400",
+          "altText": "An image of beautiful artwork"
+        }
+      }
     ]
-}
+  }
+  
