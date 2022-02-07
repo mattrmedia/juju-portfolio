@@ -14,6 +14,10 @@ const Info = styled.div`
     margin-bottom: 3rem;
     width: 60%;
 
+    @media(max-width: 600px) {
+        width: 80%;
+    }
+
     div {
         flex: 1 1 48%;
 
@@ -29,6 +33,11 @@ const Title = styled.h2`
     font-family: ${fonts.serif};
     font-size: 2rem;
     margin: 0 0 3rem;
+
+    @media(max-width: 400px) {
+        font-size: 1.5rem;
+        margin: 0 0 2rem;
+    }
 `
 
 const Subtitle = styled.h3`
@@ -47,7 +56,7 @@ const Project = ({ project }) => {
     <div className={styles.container}>
         <Header />
         <main className={styles.main}>
-            <ImageContainer image={project.headerImage.src} altText={project.headerImage.altText} height={'400'} width={'1650'} />
+            <ImageContainer image={project.headerImage.src} altText={project.headerImage.altText} height={'600'} width={'1650'} objectFit="contain" priority={true} />
             <Info>
                 <Title>{parse(project.title)}</Title>
                 <div>

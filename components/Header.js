@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Image from 'next/image';
 import { colors } from '../styles/theme';
 import { Navigation } from './Navigation';
 

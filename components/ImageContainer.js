@@ -7,6 +7,10 @@ const Container = styled.div`
     position: relative;
     margin-bottom: 3rem;
 
+    @media(max-width: 400px) {
+        margin-bottom: 2rem;
+    }
+
     img {
         width: 100%;
         position: relative;

@@ -30,7 +30,6 @@ const Thumbnail = styled.li`
     transition: transform 250ms ease-in;
 
     &:hover {
-        border: 10px solid ${colors.highlight};
         transform: scale(1.05);
     }
 

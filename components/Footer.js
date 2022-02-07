@@ -23,7 +23,7 @@ const FooterContainer = styled.div`
 const Headline = styled.h2`
     align-self: flex-start;
     font-family: ${fonts.serif};
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     border-bottom: 3px solid ${colors.highlight};
     color: ${colors.primaryDark};
     display: inline-block;
@@ -69,13 +69,13 @@ const ImageColumn = styled.div`
 `
 
 const Text = styled.p`
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.75rem;
 `
 
 export const Footer = ({about, personal}) => {
     return (
-        <FooterContainer id={'about'}>
+        <FooterContainer>
             <div>
                 <ImageColumn>
                     <Image
