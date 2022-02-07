@@ -10,8 +10,10 @@ const StyledHeader = styled.header`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: sticky;
+    top: 0;
     width: 100%;
-    position: relative;
+    z-index: 100;
 `
 
 export const Header = () => {

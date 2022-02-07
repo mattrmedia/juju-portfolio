@@ -3,20 +3,25 @@
 html {
   scroll-behavior: smooth;
 }
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: $font-family-sans-serif;
+  font-weight: 300;
 }
 
-a, .link-btn {
+sup {
+  font-size: .75rem;
+}
+
+.link, .link-btn {
   color: inherit;
   display: block;
   text-decoration: none;
-  margin-top: .5rem;
 
-  &:hover {
+  &.link-btn.selected, &:hover {
     color: $highlight;
 
     &:after {
@@ -53,4 +58,8 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+p {
+  margin: 0 0 2rem;
 }

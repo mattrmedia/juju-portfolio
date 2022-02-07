@@ -5,6 +5,7 @@ import Image from 'next/image';
 const Container = styled.div`
     width: 100vw;
     position: relative;
+    margin-bottom: 3rem;
 
     img {
         width: 100%;
@@ -22,7 +23,7 @@ export const ImageContainer = ({ image, height, width, altText }) => {
                 height={height}
                 layout='responsive'
                 objectFit='cover'
-                priority
+                priority={true}
             />
         </Container>
     )

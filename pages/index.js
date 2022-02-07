@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.scss'
 import { Header } from '../components/Header';
 import { ImageContainer } from '../components/ImageContainer';
 import { Gallery } from '../components/Gallery';
+import { Footer } from '../components/Footer';
 
 import headerImage from '../public/assets/home-header-29.png';
 
@@ -14,7 +15,8 @@ export default function Home({ data }) {
         <Gallery projects={data.projects} />
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={styles.footer}  id={'about'}>
+        <Footer about={data.about} personal={data.personal} />
       </footer>
     </div>
   )

@@ -1,29 +1,69 @@
 import { Header } from '../../components/Header';
+import { Copyright } from '../../components/Copyright';
 import { ImageContainer } from '../../components/ImageContainer';
+import { ImageGrid } from '../../components/ImageGrid';
+import parse from 'html-react-parser';
 import styled from '@emotion/styled';
 import styles from '../../styles/Home.module.scss'
+import { fonts } from '../../styles/theme';
 
 const Info = styled.div`
     display: flex;
-    flex-wrap;
-    width: 80%;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+    margin-bottom: 3rem;
+    width: 60%;
 
     div {
-        flex: 1 1 50%;
+        flex: 1 1 48%;
+
+        @media (max-width: 600px) {
+            display: block;
+            flex: 1 1 100%;
+        }
     }
 `
 
+const Title = styled.h2`
+    flex: 1 0 100%;
+    font-family: ${fonts.serif};
+    font-size: 2rem;
+    margin: 0 0 3rem;
+`
+
+const Subtitle = styled.h3`
+    font-family: ${fonts.serif};
+    margin: 0 0 1rem;
+`
+
+const Footer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
 const Project = ({ project }) => {
+
   return (
     <div className={styles.container}>
         <Header />
-        <ImageContainer image={project.headerImage} height={'400'} width={'1650'} />
         <main className={styles.main}>
+            <ImageContainer image={project.headerImage.src} altText={project.headerImage.altText} height={'400'} width={'1650'} />
             <Info>
-                <div>{project.problem}</div>
-                <div>{project.solution}</div>
+                <Title>{parse(project.title)}</Title>
+                <div>
+                    <Subtitle>problem:</Subtitle>
+                    <p>{project.problem}</p>
+                </div>
+                <div>
+                    <Subtitle>solution:</Subtitle>
+                    <p>{project.solution}</p>
+                </div>
             </Info>
+            <ImageGrid images={project.images} />
         </main>
+        <Footer>
+            <Copyright />
+        </Footer>
     </div>
   )
 }
