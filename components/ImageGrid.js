@@ -3,23 +3,13 @@ import styled from '@emotion/styled';
 import Image from 'next/image';
 
 const IMAGE_WIDTHS = {
-    'full': '1200',
-    'half': '600',
-    'third': '300'
-}
-
-const IMAGE_HEIGHTS = {
-    'full': '600',
-    'half': '600',
-    'third': '300'
+    'full': '100%',
+    'half': '48%',
+    'third': '31%'
 }
 
 const getWidth = (width) => {
     return IMAGE_WIDTHS[width];
-}
-
-const getHeight = (width) => {
-    return IMAGE_HEIGHTS[width];
 }
 
 const ImagesContainer = styled.div`
@@ -27,15 +17,34 @@ const ImagesContainer = styled.div`
     justify-content: center;
     display: inline-flex;
     flex-wrap: wrap;
+    position: relative;
     gap: 2rem;
-    width: 80%;
+    width: 60%;
     margin-bottom: 3rem;
+
+    @media (max-width: 600px) {
+        width: 90%;
+    }
+
+    .custom-img {
+        width: 100% !important;
+        position: relative !important;
+        height: unset !important;
+      }
+
+      > div > span {
+        position: unset !important;
+      }
+`
+
+const ResetImage = styled.div`
+    width: ${props =>   props.width};
 `
 
 export const ImageGrid = ({images}) => {
     return (
         <ImagesContainer>
-            {images.map((image, idx) =>  <Image key={`image-${idx}`} src={image.src} width={getWidth(image.grid)} height={getHeight(image.grid)} objectFit="contain" />)}
+            {images.map((image, idx) =>  <ResetImage key={`img-${idx}`} width={getWidth(image.grid)}><Image className={'custom-img'} src={image.src} layout='fill' objectFit="contain" /></ResetImage>)}
         </ImagesContainer>
     )
 }

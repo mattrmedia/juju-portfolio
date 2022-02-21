@@ -59,14 +59,20 @@ const Project = ({ project }) => {
             <ImageContainer image={project.headerImage.src} altText={project.headerImage.altText} height={'600'} width={'1650'} objectFit="contain" priority={true} />
             <Info>
                 <Title>{parse(project.title)}</Title>
-                <div>
-                    <Subtitle>problem:</Subtitle>
-                    <p>{project.problem}</p>
-                </div>
-                <div>
-                    <Subtitle>solution:</Subtitle>
-                    <p>{project.solution}</p>
-                </div>
+                {project.problem.length ?
+                    <div>
+                        <Subtitle>problem:</Subtitle>
+                        <p>{project.problem}</p>
+                    </div>
+                    : null
+                }
+                {project.solution.length ?
+                    <div>
+                        <Subtitle>solution:</Subtitle>
+                        <p>{project.solution}</p>
+                    </div>
+                    : null
+                }
             </Info>
             <ImageGrid images={project.images} />
         </main>

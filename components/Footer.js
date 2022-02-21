@@ -56,6 +56,7 @@ const ImageColumn = styled.div`
         grid-column: 1 / -1;
         grid-row: 1;
         z-index: 1;
+        left: 75px;
     }
 
     > span:last-of-type {

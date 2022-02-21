@@ -92,7 +92,7 @@
           }
         ],
         "thumbnail": {
-          "src": "/assets/project-2/project-2-thumbnail.jpg",
+          "src": "/assets/project-2/project-2-thumbnail.png",
           "altText": "close-up image of graphic layout with black and white, historic photos of Cintas people and products on a paper textured background overlaid with watercolor swatches and text captioning each image"
         }
       },
@@ -159,7 +159,7 @@
           }
         ],
         "thumbnail": {
-          "src": "/assets/project-3/project-3-thumbnail.jpg",
+          "src": "/assets/project-3/project-3-thumbnail.png",
           "altText": "An image of a businesswoman in a dress looks down at her phone in hand while walking past a branded desk which reads \"Welcome\" and an eight foot tall printed board with the Deloitte logo and a graphic pattern of women's faces in profile"
         }
       },
@@ -182,11 +182,36 @@
           {
             "src": "/assets/project-4/project-4-img-2.jpg",
             "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-4/project-4-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-4/project-4-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-4/project-4-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-4/project-4-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-4/project-4-img-7.jpg",
+            "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "/assets/project-4/project-4-thumbnail.jpg",
+          "src": "/assets/project-4/project-4-thumbnail.png",
           "altText": "An image of beautiful artwork",
           "grid": "full"
         }
@@ -203,7 +228,7 @@
           },
         "images": [
           {
-            "src": "/assets/project-5/project-5-img-2.jpg",
+            "src": "/assets/project-5/project-5-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
@@ -214,7 +239,7 @@
           }
         ],
         "thumbnail": {
-          "src": "/assets/project-5/project-5-thumbnail.jpg",
+          "src": "/assets/project-5/project-5-thumbnail.png",
           "altText": "An image of beautiful artwork",
           "grid": "full"
         }
@@ -226,25 +251,49 @@
         "solution": "The final event identity uses a logo with a handwritten font, and supporting graphics with a collage-like feel, torn paper, jagged cut imagery, and simple doodles. The amateur, grassroots quality illustrates that anyone has the ability to lead change, regardless of title or seniority. These elements are applied to the studio set pieces, as well as the Pathable virtual  event platform.",
         "type": ["logo", "environmental"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-6/project-6-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-6/project-6-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-6/project-6-img-2.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
+          },
+          {
+            "src": "/assets/project-6/project-6-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-6/project-6-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-6/project-6-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-6/project-6-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-6/project-6-img-7.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-6/project-6-thumbnail.jpg",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -254,25 +303,54 @@
         "solution": "Using the theme “Bold: Action. Traction. Change.,” a bold logo and supporting event brand is created which has curves and movement to illustrate the idea of “action.” Using the Pathable event platform, a website is designed with proper hierarchy of information, resulting in an engaging and heavily branded virtual event with a clear message and takeaway.",
         "type": ["logo", "digital"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-7/project-7-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-7/project-7-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-7/project-7-img-2.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-7.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-7/project-7-img-8.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-7/project-7-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -282,25 +360,39 @@
         "solution": "Displays are proposed for each area based on their location and the amount of content for each. Ideas are illustrated and presented to Indiana Dunes. This is an ongoing project, scheduled to be completed in May of 2022.",
         "type": ["environmental", "illustration"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-8/project-8-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-8/project-8-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-8/project-8-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-8/project-8-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-8/project-8-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-8/project-8-img-5.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-8/project-8-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -310,53 +402,121 @@
         "solution": ": The final \"Reframe\" identity is bold and emphasizes the desire for attendees to reflect inward on their influence and power to make change. The reflection and supporting graphic elements also allude to the venue location. This identity system is applied throughout the venue to direct attendees to various touchpoints and elevate the space.",
         "type": ["logo", "environmental"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-9/project-9-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-9/project-9-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-9/project-9-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-4.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "third"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-7.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "third"
+          },
+          {
+            "src": "/assets/project-9/project-9-img-8.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "third"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-9/project-9-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
         "id": "project-10",
-        "title": "Everything But the House<sup>®</sup> Whitepapers",
+        "title": "Everything But the House® Whitepapers",
         "problem": "EBTH would like to gain more sellers for their auction platform by partnering with real estate agents. Agents can add to their service offering by providing whitepapers with tips and tricks for selling items in the midst of a move. These whitepapers should be well-designed using the EBTH brand.",
         "solution": "Various whitepapers using lifestyle imagery, a hierarchy of content, simple illustrations and hand-written text when applicable appeal to real estate agents and people selling their home. Clicks and shares on social media are improved over previous blog content.",
         "type": ["illustration", "publications"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-10/project-10-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-10/project-10-img-1.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-5.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-10/project-10-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-7.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-8.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-9.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-10/project-10-img-10.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-10/project-10-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -366,81 +526,103 @@
         "solution": "",
         "type": ["illustration", "publications"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-11/project-11-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-11/project-11-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-11/project-11-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-11/project-11-img-3.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-11/project-11-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
         "id": "project-12",
-        "title": "Everything But the House<sup>®</sup> Digital Ads",
+        "title": "Everything But the House® Digital Ads",
         "problem": "EBTH would like to gain more sellers for their auction platform by creating animated display ads. ",
         "solution": "Animated display ads are created at various sizes showcasing high-value items sold on EBTH.com. An improvement in number of clicks was seen over similar previous ad campaigns.",
         "type": ["digital"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-12/project-12-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-12/project-12-img-1.gif",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-12/project-12-img-2.gif",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-12/project-12-img-3.gif",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-12/project-12-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
         "id": "project-13",
         "title": "Roe Wedding Invitation Suite",
-        "problem": "text",
-        "solution": "text",
+        "problem": "",
+        "solution": "",
         "type": ["illustration", "publications"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-13/project-13-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-13/project-13-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-13/project-13-img-2.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
+          },
+          {
+            "src": "/assets/project-13/project-13-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-13/project-13-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-13/project-13-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-13/project-13-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -450,25 +632,44 @@
         "solution": "Rather than use photography, as was done in previous years’ posters, a technique was learned to take vector illustrations and make them look embroidered like a scout badge. Each trip had a badge made and was arranged on the poster like a Scout’s sash. This unique approach allowed us to push the idea even further, offering badge pins to each participant.",
         "type": ["illustration", "publications"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-14/project-14-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-14/project-14-img-1.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-14/project-14-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-14/project-14-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-14/project-14-img-4.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
+          },
+          {
+            "src": "/assets/project-14/project-14-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-14/project-14-img-6.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-14/project-14-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       },
       {
@@ -478,25 +679,49 @@
         "solution": "",
         "type": ["illustration"],
         "headerImage": {
-            "src": "https://place-hold.it/1650x400",
-            "altText": "A pop-up banner welcomes guests to the Discover Networking Lounge, an open space with charging tables, orange rugs and vinyl wrapped columns"
-          },
+          "src": "/assets/project-15/project-15-header.jpg",
+          "altText": ""
+        },
         "images": [
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-15/project-15-img-1.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-15/project-15-img-2.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "half"
+          },
+          {
+            "src": "/assets/project-15/project-15-img-3.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           },
           {
-            "src": "https://place-hold.it/400x400",
+            "src": "/assets/project-15/project-15-img-3.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-15/project-15-img-4.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-15/project-15-img-5.jpg",
+            "altText": "An image of beautiful artwork",
+            "grid": "full"
+          },
+          {
+            "src": "/assets/project-15/project-15-img-6.jpg",
             "altText": "An image of beautiful artwork",
             "grid": "full"
           }
         ],
         "thumbnail": {
-          "src": "https://place-hold.it/400x400",
-          "altText": "An image of beautiful artwork",
-          "grid": "full"
+          "src": "/assets/project-15/project-15-thumbnail.png",
+          "altText": "An image of beautiful artwork"
         }
       }
     ]
