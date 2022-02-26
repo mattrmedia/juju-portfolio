@@ -66,6 +66,21 @@ const GalleryNav = styled.div`
             margin-bottom: 1rem;
         }
     }
+
+    @media(max-width: 600px) {
+        overflow-y: auto;
+        justify-content: initial;
+        flex-wrap: initial;
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
 `
 const PROJECT_TYPES = {
     0: 'all',

@@ -99,7 +99,7 @@ export const Navigation = () => {
                         <Roe>roe</Roe>
                     </StyledLogo>
                 </Link>
-                <MobileHamburger onClick={() => setShowMobileNav(!showMobileNav)} isMobile={showMobileNav} onKeyUp={() => setShowMobileNav(!showMobileNav)} tabIndex={-1}>
+                <MobileHamburger onClick={() => setShowMobileNav(!showMobileNav)} isMobile={showMobileNav} onKeyUp={() => setShowMobileNav(!showMobileNav)} tabIndex={-1} aria-expanded={showMobileNav}>
                     <HamburgerIcon viewBox={"0 0 100 100"} size={"40"}/>
                 </MobileHamburger>
                 <Nav isMobile={showMobileNav}>
