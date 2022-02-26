@@ -87,7 +87,7 @@ export default Project;
 
 export async function getStaticPaths() {
     const dev = process.env.NODE_ENV !== 'production';
-    const server = dev ? 'http://localhost:3000' : 'https://juliaroe.com';
+    const server = dev ? 'http://localhost:3000' : 'https://juliaroedesign.com';
     const res = await fetch(
       `${server}/projects.json`
     );
@@ -105,7 +105,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async ({params}) => {
     const dev = process.env.NODE_ENV !== 'production';
-    const server = dev ? 'http://localhost:3000' : 'https://juliaroe.com';
+    const server = dev ? 'http://localhost:3000' : 'https://juliaroedesign.com';
     const res = await fetch(
       `${server}/projects.json`
     );

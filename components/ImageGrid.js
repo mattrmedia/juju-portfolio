@@ -4,8 +4,11 @@ import Image from 'next/image';
 
 const IMAGE_WIDTHS = {
     'full': '100%',
-    'half': '48%',
-    'third': '31%'
+    'half': '47%',
+    'third': '30%',
+    "gifLG": '728px',
+    "gifMD": "320px",
+    "gifSM": "300px"
 }
 
 const getWidth = (width) => {
