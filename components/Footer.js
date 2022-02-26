@@ -6,7 +6,8 @@ import { colors, fonts, grid } from '../styles/theme';
 
 const FooterContainer = styled.div`
     background-color: ${colors.primaryLight};
-
+    overflow: hidden;
+    
     > div {
         display: flex;
         gap: 2rem;
