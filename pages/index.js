@@ -10,7 +10,7 @@ export default function Home({ data }) {
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <ImageContainer image={'/assets/home-header-29.png'} height={'675'} width={'1650'} />
+        <ImageContainer image={'./assets/home-header-29.png'} height={'675'} width={'1650'} />
         <Gallery projects={data.projects} />
       </main>
 

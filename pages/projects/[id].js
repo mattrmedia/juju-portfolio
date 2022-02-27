@@ -57,7 +57,7 @@ const Project = ({ project }) => {
     <div className={styles.container}>
         <Header />
         <main className={styles.main}>
-            <ImageContainer image={project.headerImage.src} altText={project.headerImage.altText} height={'600'} width={'1650'} objectFit="contain" priority={true} />
+            <ImageContainer image={`..${project.headerImage.src}`} altText={project.headerImage.altText} height={'700'} width={'1650'} />
             <Info>
                 <Title>{parse(project.title)}</Title>
                 {project.problem.length ?

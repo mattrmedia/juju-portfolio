@@ -10,7 +10,7 @@ const FooterContainer = styled.div`
 
     > div {
         display: flex;
-        gap: 2rem;
+        gap: 5rem;
         margin: 0 auto;
         padding: 3rem 0 0;
         width: 80%;
@@ -45,7 +45,7 @@ const FooterColumn = styled.div`
 const ImageColumn = styled.div`
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    flex: 1 0 49%;
+    flex: 1 0 45%;
     position: relative;
     align-content: flex-end;
 
@@ -53,20 +53,23 @@ const ImageColumn = styled.div`
         order: 2;
     }
 
-    > span:first-of-type {
+    > img:first-of-type {
+        position: relative;
         grid-column: 1 / -1;
         grid-row: 1;
         z-index: 1;
         left: 75px;
     }
 
-    > span:last-of-type {
+    > img:last-of-type {
         grid-column: 1 / -1;
         grid-row: 1;
     }
 
     img {
-        object-fit: contain;
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
     }
 `
 
@@ -80,17 +83,17 @@ export const Footer = ({about, personal}) => {
         <FooterContainer>
             <div>
                 <ImageColumn>
-                    <Image
+                    <img
                         src={'/assets/julia.png'}
                         alt={'Headshot photograph of Julia Roe'}
-                        height='600'
-                        width='600'
+                        height='auto'
+                        width='500'
                     />
-                    <Image
+                    <img
                         src={'/assets/footer-bg.png'}
                         alt={"Background of colorful shapes and Julia written in script font"}
-                        height='600'
-                        width='600'
+                        height='auto'
+                        width='500'
                     />
                 </ImageColumn>
                 <FooterColumn>

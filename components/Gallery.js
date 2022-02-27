@@ -28,6 +28,7 @@ const Thumbnail = styled.li`
     line-height: 0;
     max-height: 400px;
     transition: transform 250ms ease-in;
+    overflow: hidden;
 
     &:hover {
         transform: scale(1.05);
@@ -117,7 +118,7 @@ export const Gallery = ({projects}) => {
                         <Thumbnail key={project.id} tabIndex={0}>
                             <Link href={`/projects/${project.id}`}>
                                 <a>
-                                    <Image
+                                    <img
                                         src={project.thumbnail.src}
                                         alt={project.thumbnail.altText}
                                         height='400'
