@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Header } from '../../components/Header';
 import { Copyright } from '../../components/Copyright';
 import { ImageContainer } from '../../components/ImageContainer';
@@ -54,33 +55,46 @@ const Footer = styled.div`
 const Project = ({ project }) => {
 
   return (
-    <div className={styles.container}>
-        <Header />
-        <main className={styles.main}>
-            <ImageContainer image={`..${project.headerImage.src}`} altText={project.headerImage.altText} height={'700'} width={'1650'} />
-            <Info>
-                <Title>{parse(project.title)}</Title>
-                {project.problem.length ?
-                    <div>
-                        <Subtitle>problem:</Subtitle>
-                        <p>{project.problem}</p>
-                    </div>
-                    : null
-                }
-                {project.solution.length ?
-                    <div>
-                        <Subtitle>solution:</Subtitle>
-                        <p>{project.solution}</p>
-                    </div>
-                    : null
-                }
-            </Info>
-            <ImageGrid images={project.images} />
-        </main>
-        <Footer>
-            <Copyright />
-        </Footer>
-    </div>
+      <>
+      <Head>
+        <title>{`Julia Roe Portfolio - ${project.title}`}</title>
+        <meta property="og:url" content={`https://juliaroedesign.com/projects/${project.id}`} />
+        <meta property="og:type" content={`https://juliaroedesign.com/projects/${project.id}`} />
+        <meta
+          property="og:description"
+          content={project.headerImage.altText}
+        />
+        <meta property="og:image" content={`..${project.headerImage.src}`} />
+        <meta property="og:title" content={project.title} />
+      </Head>
+        <div className={styles.container}>
+            <Header />
+            <main className={styles.main}>
+                <ImageContainer image={`..${project.headerImage.src}`} altText={project.headerImage.altText} height={'700'} width={'1650'} />
+                <Info>
+                    <Title>{parse(project.title)}</Title>
+                    {project.problem.length ?
+                        <div>
+                            <Subtitle>problem:</Subtitle>
+                            <p>{project.problem}</p>
+                        </div>
+                        : null
+                    }
+                    {project.solution.length ?
+                        <div>
+                            <Subtitle>solution:</Subtitle>
+                            <p>{project.solution}</p>
+                        </div>
+                        : null
+                    }
+                </Info>
+                <ImageGrid images={project.images} />
+            </main>
+            <Footer>
+                <Copyright />
+            </Footer>
+        </div>
+    </>
   )
 }
 

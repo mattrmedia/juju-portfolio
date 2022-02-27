@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Julia Roe Portfolio</title>
-        <meta name="description" content="Julia Roe / Graphic Designer / Environmental Design Cincinnati, Ohio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />  
