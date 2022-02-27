@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
-  assetPrefix: isProd ? 'http://juliaroedesign.com/' : '',
+  assetPrefix: isProd ? 'https://juliaroedesign.com/' : '',
   reactStrictMode: true,
   basePath: '',
   images: {
