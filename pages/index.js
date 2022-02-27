@@ -13,6 +13,7 @@ export default function Home({ data }) {
         <meta name="description" content="Julia Roe / Graphic Designer / Environmental Design Cincinnati, Ohio" />
         <meta property="og:title" content="Julia Roe Portfolio" />
         <meta property="og:image" content="./assets/julia.png" />
+        <meta property="og:type" content="website" />
       </Head>
       <div className={styles.container}>
         <Header />

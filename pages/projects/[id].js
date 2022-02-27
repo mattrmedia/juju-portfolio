@@ -59,7 +59,7 @@ const Project = ({ project }) => {
       <Head>
         <title>{`Julia Roe Portfolio - ${project.title}`}</title>
         <meta property="og:url" content={`https://juliaroedesign.com/projects/${project.id}`} />
-        <meta property="og:type" content={`https://juliaroedesign.com/projects/${project.id}`} />
+        <meta property="og:type" content="website" />
         <meta
           property="og:description"
           content={`${project?.solution}`}
