@@ -27,6 +27,7 @@ export const ImageContainer = ({ image, width, altText }) => {
                 alt={altText}
                 width={width}
                 height={'auto'}
+                importance={'high'}
             />
         </Container>
     )
