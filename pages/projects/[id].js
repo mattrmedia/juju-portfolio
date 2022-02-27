@@ -62,7 +62,7 @@ const Project = ({ project }) => {
         <meta property="og:type" content={`https://juliaroedesign.com/projects/${project.id}`} />
         <meta
           property="og:description"
-          content={project.headerImage.altText}
+          content={`${project?.solution}`}
         />
         <meta property="og:image" content={`..${project.headerImage.src}`} />
         <meta property="og:title" content={project.title} />
