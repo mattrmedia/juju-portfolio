@@ -1,5 +1,4 @@
 node_modules
 .next/**
-public/assets/.DS_Store
-public/assets/*/.DS_Store
+.DS_Store
 out

@@ -3,10 +3,10 @@ module.exports = {
   assetPrefix: "./",
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: isProd ? '/juju-portfolio' : '',
+  basePath: isProd ? './' : '',
   images: {
     loader: "akamai",
-    path: isProd ? '/juju-portfolio/out' : '',
+    path: isProd ? './' : '',
   },
 }
 
