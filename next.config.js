@@ -3,10 +3,10 @@ module.exports = {
   assetPrefix: "./",
   trailingSlash: true,
   reactStrictMode: true,
-  basePath: isProd ? './' : '',
+  basePath: isProd ? '/' : '',
   images: {
     loader: "akamai",
-    path: isProd ? './' : '',
+    path: isProd ? '/' : '',
   },
 }
 
