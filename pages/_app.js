@@ -8,8 +8,6 @@ function MyApp({ Component, pageProps }) {
         <title>Julia Roe Portfolio</title>
         <meta name="description" content="Julia Roe / Graphic Designer / Environmental Design Cincinnati, Ohio" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,400,600,700&amp;lang=en" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,400,600,700&amp;lang=en" />
       </Head>
       <Component {...pageProps} />  
     </>

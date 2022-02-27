@@ -46,7 +46,7 @@ const ResetImage = styled.div`
 export const ImageGrid = ({images}) => {
     return (
         <ImagesContainer>
-            {images.map((image, idx) =>  <ResetImage key={`img-${idx}`} width={getWidth(image.grid)}><img className={'custom-img'} src={image.src} alt={image.altText} /></ResetImage>)}
+            {images.map((image, idx) =>  <ResetImage key={`img-${idx}`} width={getWidth(image.grid)}><img className={'custom-img'} src={`..${image.src}`} alt={image.altText} /></ResetImage>)}
         </ImagesContainer>
     )
 }

@@ -119,7 +119,7 @@ export const Gallery = ({projects}) => {
                             <Link href={`/projects/${project.id}`}>
                                 <a>
                                     <img
-                                        src={project.thumbnail.src}
+                                        src={`.${project.thumbnail.src}`}
                                         alt={project.thumbnail.altText}
                                         height='400'
                                         width='400'

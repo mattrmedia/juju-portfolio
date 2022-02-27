@@ -84,13 +84,13 @@ export const Footer = ({about, personal}) => {
             <div>
                 <ImageColumn>
                     <img
-                        src={'/assets/julia.png'}
+                        src={'./assets/julia.png'}
                         alt={'Headshot photograph of Julia Roe'}
                         height='auto'
                         width='500'
                     />
                     <img
-                        src={'/assets/footer-bg.png'}
+                        src={'./assets/footer-bg.png'}
                         alt={"Background of colorful shapes and Julia written in script font"}
                         height='auto'
                         width='500'
