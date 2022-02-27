@@ -6,6 +6,7 @@ import parse from 'html-react-parser';
 import styled from '@emotion/styled';
 import styles from '../../styles/Home.module.scss'
 import { fonts } from '../../styles/theme';
+import data from '../../public/projects.json';
 
 const Info = styled.div`
     display: flex;
@@ -86,12 +87,6 @@ const Project = ({ project }) => {
 export default Project;
 
 export async function getStaticPaths() {
-    const dev = process.env.NODE_ENV !== 'production';
-    const server = dev ? 'http://localhost:3000' : 'https://juliaroedesign.com';
-    const res = await fetch(
-      `${server}/projects.json`
-    );
-    const data = await res.json();
     const paths = data.projects.map((project) => ({
         params: { id: project.id },
     }));
@@ -104,12 +99,6 @@ export async function getStaticPaths() {
   
 
 export const getStaticProps = async ({params}) => {
-    const dev = process.env.NODE_ENV !== 'production';
-    const server = dev ? 'http://localhost:3000' : 'https://juliaroedesign.com';
-    const res = await fetch(
-      `${server}/projects.json`
-    );
-    const data = await res.json();
     const project = data.projects.filter(p => p.id === params.id)[0]
   
     return {

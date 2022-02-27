@@ -93,7 +93,7 @@ export const Navigation = () => {
 
     return (
         <StyledNav role="navigation" aria-label="site section navigation">
-                <Link href="/">
+                <Link href="/" passHref={true}>
                     <StyledLogo>
                         <Julia>julia</Julia>
                         <Roe>roe</Roe>
@@ -110,11 +110,11 @@ export const Navigation = () => {
                         <Link href='/#about'><a className={'link'} tabIndex={0}>about</a></Link>
                     </li>
                     <li onClick={() => (showMobileNav ? setShowMobileNav(!showMobileNav): {})}> 
-                        <Link href='/#resume'><a target="_blank" href={'/assets/2022JuliaRoeResume.pdf'} className={'link'} tabIndex={0}>resum&eacute;</a></Link>
+                        <Link href='/#resume'><a target="_blank" href={'/assets/2022JuliaRoeResume.pdf'} rel="noreferrer" className={'link'} tabIndex={0}>resum&eacute;</a></Link>
                     </li>
                     <li onClick={() => (showMobileNav ? setShowMobileNav(!showMobileNav): {})}> 
                         <Link href='/#linkedin'>  
-                        <a target="_blank" href={'https://www.linkedin.com/in/julia-roe-23780779'} className={'link'} tabIndex={0}>
+                        <a target="_blank" href={'https://www.linkedin.com/in/julia-roe-23780779'} rel="noreferrer" className={'link'} tabIndex={0}>
                             <LinkedInIcon viewBox={"0 0 40 40"} size={showMobileNav ? '40' : '20'} />
                         </a>
                         </Link>

@@ -3,15 +3,14 @@ import { Header } from '../components/Header';
 import { ImageContainer } from '../components/ImageContainer';
 import { Gallery } from '../components/Gallery';
 import { Footer } from '../components/Footer';
-
-import headerImage from '../public/assets/home-header-29.png';
+import data from '../public/projects.json';
 
 export default function Home({ data }) {
   return (
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <ImageContainer image={headerImage} height={'675'} width={'1650'} />
+        <ImageContainer image={'/assets/home-header-29.png'} height={'675'} width={'1650'} />
         <Gallery projects={data.projects} />
       </main>
 
@@ -23,10 +22,5 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
-  const dev = process.env.NODE_ENV !== 'production';
-  const server = dev ? 'http://localhost:3000' : 'https://juliaroedesign.com';
-  const res = await fetch(`${server}/projects.json`);
-  const data = await res.json();
-
   return { props: { data }}
 }
