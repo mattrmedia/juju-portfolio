@@ -47,10 +47,22 @@ const ResetImage = styled.div`
     }
 `
 
-export const ImageGrid = ({images}) => {
+const Asset = styled.div`
+    text-align: center;
+    width: 100%;
+`
+
+export const ImageGrid = ({images, assets}) => {
+    let assetSet;
+    let imageSet = images.map((image, idx) =>  <ResetImage key={`img-${idx}`} width={getWidth(image.grid)}><img className={'custom-img'} src={`..${image.src}`} alt={image.altText} /></ResetImage>);
+
+    if (assets) {
+        assetSet = assets.map(asset => <Asset><a target="_blank" href={`${asset.src}`} rel="noreferrer" tabIndex={0}>{asset.description}</a></Asset>); 
+        assets.map((asset, idx) => imageSet.splice(asset.order, 0, assetSet[idx]));
+    }
     return (
         <ImagesContainer>
-            {images.map((image, idx) =>  <ResetImage key={`img-${idx}`} width={getWidth(image.grid)}><img className={'custom-img'} src={`..${image.src}`} alt={image.altText} /></ResetImage>)}
+            {imageSet}
         </ImagesContainer>
     )
 }

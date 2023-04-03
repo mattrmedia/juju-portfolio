@@ -88,7 +88,7 @@ const Project = ({ project }) => {
                         : null
                     }
                 </Info>
-                <ImageGrid images={project.images} />
+                <ImageGrid images={project.images} assets={project?.assets}/>
             </main>
             <Footer>
                 <Copyright />

@@ -110,7 +110,7 @@ export const Navigation = () => {
                         <Link href='/#about'><a className={'link'} tabIndex={0}>about</a></Link>
                     </li>
                     <li onClick={() => (showMobileNav ? setShowMobileNav(!showMobileNav): {})}> 
-                        <Link href='/#resume'><a target="_blank" href={'/assets/2022JuliaRoeResume.pdf'} rel="noreferrer" className={'link'} tabIndex={0}>resum&eacute;</a></Link>
+                        <Link href='/#resume'><a target="_blank" href={'/assets/2023JuliaRoeResume.pdf'} rel="noreferrer" className={'link'} tabIndex={0}>resum&eacute;</a></Link>
                     </li>
                     <li onClick={() => (showMobileNav ? setShowMobileNav(!showMobileNav): {})}> 
                         <Link href='/#linkedin'>  
