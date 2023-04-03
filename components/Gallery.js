@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
-import Image from 'next/image';
 import Link from 'next/link';
 import { AnimatePresence } from 'framer-motion';
 import { colors, grid, fonts } from '../styles/theme';
